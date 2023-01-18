@@ -13,6 +13,7 @@
 		AC4D11322976A2E1009135F6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D11312976A2E1009135F6 /* ListView.swift */; };
 		AC4D11342976A64A009135F6 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D11332976A64A009135F6 /* ListRowView.swift */; };
 		AC4D11362976AA4C009135F6 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D11352976AA4C009135F6 /* AddView.swift */; };
+		AC4D11392976E20E009135F6 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D11382976E20E009135F6 /* ItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		AC4D11312976A2E1009135F6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		AC4D11332976A64A009135F6 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		AC4D11352976AA4C009135F6 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		AC4D11382976E20E009135F6 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		AC4D11212976A056009135F6 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				AC4D11372976E1EE009135F6 /* Model */,
 				AC4D11222976A056009135F6 /* ToDoListApp.swift */,
 				AC4D11302976A2AA009135F6 /* Views */,
 				AC4D11262976A057009135F6 /* Assets.xcassets */,
@@ -79,6 +82,14 @@
 				AC4D11352976AA4C009135F6 /* AddView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		AC4D11372976E1EE009135F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D11382976E20E009135F6 /* ItemModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4D11392976E20E009135F6 /* ItemModel.swift in Sources */,
 				AC4D11362976AA4C009135F6 /* AddView.swift in Sources */,
 				AC4D11232976A056009135F6 /* ToDoListApp.swift in Sources */,
 				AC4D11322976A2E1009135F6 /* ListView.swift in Sources */,
